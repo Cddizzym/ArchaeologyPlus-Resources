@@ -1,21 +1,11 @@
-# ArchaeologyPlus — resource packs
+# ArchaeologyPlus resource packs
 
-Versioned 32×32 resource packs for Minecraft Java 26.2, resource format 88.0.
+Version 0.5.2-textures.2 uses 15 native Minecraft block models and a 32×32 pixel material atlas for Java 26.2. Includes the archaeologist brush, four coin tiers, three Redemption bundles, Divinity Fragment, three keys, and Divinity pouch, sack and treasure chest.
 
-## Pack 0.5.2-textures.1
+Divinity containers have mint-white emissive openings. Emission keeps those model surfaces bright; it does not illuminate surrounding blocks. The preview is a model render, not an in-game screenshot.
 
-[Download the resource pack](ArchaeologyPlus-0.5.2-textures.1-pack.zip)
+[Download current pack](ArchaeologyPlus-0.5.2-textures.2-pack.zip) · [Preview](ArchaeologyPlus-0.5.2-textures.2-preview.png)
 
-SHA-1: `8998cf6642883c9050cba44521c3bc7194fc3fcf`
+The matching plugin build automatically offers this hosted pack to joining players. Plugin builds pin an immutable commit URL and SHA-1. Earlier pack files remain available for older builds.
 
-The matching ArchaeologyPlus plugin automatically offers this pack on join. Server owners do not need to open an extra port or configure a pack host. Players must allow server resource packs. The plugin adds its pack without clearing other packs.
-
-Includes an archaeologist brush, three Redemption bundles, copper/silver/gold/platinum coins, a Divinity Fragment, and copper/silver/gold keys. All item textures are exactly 32×32 pixels with transparent backgrounds and shallow 2.5D geometry. Bundles have thicker relief. Light is painted into the texture; these items do not illuminate nearby blocks.
-
-![Item preview](ArchaeologyPlus-32x32-preview.png)
-
-## Hosting
-
-Keep published pack files unchanged. Each plugin build pins an immutable commit URL and SHA-1. New art belongs in a new versioned pack. Clients need HTTPS access to raw.githubusercontent.com.
-
-The artwork began as AI-generated designs and was converted to a limited-colour 32×32 grid. This repository contains the resource assets, not the gameplay plugin.
+[Previous pack](ArchaeologyPlus-0.5.2-textures.1-pack.zip)
