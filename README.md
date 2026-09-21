@@ -1,11 +1,11 @@
 # ArchaeologyPlus resource packs
 
-Current model test build: 0.5.2-textures.4 for Java 26.2.
+Current: 0.5.2-textures.5 for Java 26.2.
 
-Adds copper/silver/gold treasure chest models, normal/greater Divinity Crucible bowls with active gold flames, red Wraith Crystal model, three 2.5D oil bottle fill levels and orange/silver/purple-bound scrolls. Matching plugin applies scroll models to all 90 bundled loot definitions and recognizes existing tagged scrolls.
+Fixes placed chest and crucible appearances by using World.getUID rather than the Entity UUID method. Rebuilds Wraith Crystal as a larger floating crimson shard with a dark claw frame, bright pixel facets and pointed ends. Retains all previous items, oil bottle fill levels and 90 scroll mappings.
 
-[Pack](ArchaeologyPlus-0.5.2-textures.4-pack.zip) · [New model preview](ArchaeologyPlus-0.5.2-textures.4-new-models.png)
+[Pack](ArchaeologyPlus-0.5.2-textures.5-pack.zip) · [Preview](ArchaeologyPlus-0.5.2-textures.5-new-models.png)
 
-Placed-object visuals require the matching plugin. They use ephemeral item displays over the original gameplay blocks/entities. Players without the loaded pack keep vanilla visuals. While mining a masked block its original block is temporarily revealed to preserve client mining behavior. Automated checks passed; live Paper 26.2 testing remains necessary. Preview is an offline model render.
+Matching plugin required for placed-object visuals. Original gameplay objects remain authoritative; temporary displays and per-player masks provide custom appearances. Original blocks temporarily become visible during mining. Players without the loaded pack keep vanilla visuals.
 
-Matching plugin pins an immutable pack URL and checksum. Previous pack files remain available.
+Regression tests reproduce the old placement bug and pass with the fix. Live Minecraft testing remains necessary. Preview is an offline model render. Older pack versions remain available at their pinned URLs.
