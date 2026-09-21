@@ -1,7 +1,11 @@
 # ArchaeologyPlus resource packs
 
-Current: 0.5.2-textures.3 for Java 26.2. Fixes coplanar overlapping faces that could flicker during movement. Includes 15 block-style models and 32x32 material atlas, including glowing Divinity pouch, sack and treasure chest.
+Current model test build: 0.5.2-textures.4 for Java 26.2.
 
-[Current pack](ArchaeologyPlus-0.5.2-textures.3-pack.zip) · [Preview](ArchaeologyPlus-0.5.2-textures.3-preview.png)
+Adds copper/silver/gold treasure chest models, normal/greater Divinity Crucible bowls with active gold flames, red Wraith Crystal model, three 2.5D oil bottle fill levels and orange/silver/purple-bound scrolls. Matching plugin applies scroll models to all 90 bundled loot definitions and recognizes existing tagged scrolls.
 
-Matching plugin automatically offers the pack using an immutable URL and checksum. Older packs remain available for older builds. Preview is an offline render; live client verification remains necessary.
+[Pack](ArchaeologyPlus-0.5.2-textures.4-pack.zip) · [New model preview](ArchaeologyPlus-0.5.2-textures.4-new-models.png)
+
+Placed-object visuals require the matching plugin. They use ephemeral item displays over the original gameplay blocks/entities. Players without the loaded pack keep vanilla visuals. While mining a masked block its original block is temporarily revealed to preserve client mining behavior. Automated checks passed; live Paper 26.2 testing remains necessary. Preview is an offline model render.
+
+Matching plugin pins an immutable pack URL and checksum. Previous pack files remain available.
