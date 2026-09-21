@@ -1,11 +1,9 @@
 # ArchaeologyPlus resource packs
 
-Current: 0.5.2-textures.5 for Java 26.2.
+Current: 0.5.2-textures.6 for Java 26.2.
 
-Fixes placed chest and crucible appearances by using World.getUID rather than the Entity UUID method. Rebuilds Wraith Crystal as a larger floating crimson shard with a dark claw frame, bright pixel facets and pointed ends. Retains all previous items, oil bottle fill levels and 90 scroll mappings.
+Remakes brush oils as potion-style glass bottles with three fill levels. Adds 2.5D Sun, Moon and Void rune-stone fragment sprites, using gold, pale blue and purple symbols. Matching plugin updates new fragment give paths and existing tagged fragment items. Previous placed models, Wraith redesign and 90 scroll mappings remain included.
 
-[Pack](ArchaeologyPlus-0.5.2-textures.5-pack.zip) · [Preview](ArchaeologyPlus-0.5.2-textures.5-new-models.png)
+[Pack](ArchaeologyPlus-0.5.2-textures.6-pack.zip) · [New designs](ArchaeologyPlus-0.5.2-textures.6-new-models.png)
 
-Matching plugin required for placed-object visuals. Original gameplay objects remain authoritative; temporary displays and per-player masks provide custom appearances. Original blocks temporarily become visible during mining. Players without the loaded pack keep vanilla visuals.
-
-Regression tests reproduce the old placement bug and pass with the fix. Live Minecraft testing remains necessary. Preview is an offline model render. Older pack versions remain available at their pinned URLs.
+Matching plugin pins an immutable pack URL and checksum. Older versions remain available. Preview is an offline sprite/model render; live client verification remains necessary.
